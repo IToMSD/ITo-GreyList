@@ -1,0 +1,18 @@
+name: GreyList
+version: '1.0'
+main: me.athish.greyList.GreyList
+authors: [ Athishh ]
+description: Somewhere inbetween server whitelist and blacklist!
+website: https://itomsd.com
+commands:
+  greylist:
+    description: GreyList management commands
+    aliases: [gl]
+    usage: /<command> <add|remove|show|chat> [player]
+permissions:
+  itomsd.greylist.bypass:
+    description: Bypass GreyList restrictions
+    default: false
+  itomsd.greylist.admin:
+    description: Admin commands for GreyList
+    default: op
